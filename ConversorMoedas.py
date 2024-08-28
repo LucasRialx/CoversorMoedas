@@ -1,7 +1,7 @@
 import requests
 
-# Sua chave de API da ExchangeRate-API
-API_KEY = '10e98318c902502d7350e9fd'
+# Sua chave de API da ExchangeRate-API (https://www.exchangerate-api.com/)
+API_KEY = 'INSIRA AQUI SUA API'
 
 def get_exchange_rate(base_currency, target_currency):
     url = f"https://v6.exchangerate-api.com/v6/{API_KEY}/pair/{base_currency}/{target_currency}"
